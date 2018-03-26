@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <div className="nav">
       <div>
-        <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 100, width: 100 }} >
+        <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 150, width: 150 }} >
           <div className="Tilt-inner">
             <img src={brain} alt='brain' />
           </div>
