@@ -5,7 +5,7 @@ import './Navigation.css';
 
 const Navigation = () => {
   return (
-    <div className="nav">
+    <div className="nav pa3">
       <div>
         <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 150, width: 150 }} >
           <div className="Tilt-inner">
@@ -13,7 +13,7 @@ const Navigation = () => {
           </div>
         </Tilt>
       </div>
-      <div>
+      <div className="login">
         <span className='f3 link dim black underline pa3 pointer '>Signout</span>
       </div>
     </div>
