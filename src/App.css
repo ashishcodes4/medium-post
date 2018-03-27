@@ -10,3 +10,7 @@
   bottom: 0;
   z-index: -1;
 }
+
+button {
+  cursor: pointer;
+}
