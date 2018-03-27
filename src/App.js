@@ -3,6 +3,7 @@ import 'tachyons';
 import './App.css';
 import Navigation from './components/Navigation/Navigation'
 import Rank from './components/Rank/Rank';
+import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 
 
 class App extends Component {
@@ -10,6 +11,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
+        <Rank />
+        <ImageLinkForm />
       </div>
     );
   }
