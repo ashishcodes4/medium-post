@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import 'tachyons';
 import './App.css';
 import Navigation from './components/Navigation/Navigation'
-import 'tachyons';
+import Rank from './components/Rank/Rank';
+
 
 class App extends Component {
   render() {
