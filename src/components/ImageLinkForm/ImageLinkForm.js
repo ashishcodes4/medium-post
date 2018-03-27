@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './ImageLinkForm.css'
 const ImageLinkForm = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ const ImageLinkForm = () => {
       </p>
       </div>
       <div className='center'>
-        <div className='pa2 br3 shadow-5'>
+        <div className=' form center pa2 br3 shadow-5'>
         <input type='tex' className='f4 pa2 w-70 center' />
         <button className='w-30 grow f4 link ph3 pv2 dib white bg-gold'>Detect</button>
         </div>
