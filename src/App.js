@@ -32,8 +32,12 @@ class App extends Component {
       input : '',
     }
   }
-  onInputChange (event) {
+  onInputChange =  (event) => {
     console.log(event.target.value)
+  }
+
+  OnButtonSubmit = () => {
+    console.log('click')
   }
 
   render() {
@@ -44,7 +48,9 @@ class App extends Component {
         />
         <Navigation />
         <Rank />
-        <ImageLinkForm onInputChange= { this.onInputChange } />
+        <ImageLinkForm
+         onInputChange= { this.onInputChange }
+         OnButtonSubmit={ this.onButtonSubmit } />
       </div>
     );
   }
